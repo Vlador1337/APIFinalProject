@@ -1,16 +1,16 @@
-### Запуск тестов
+### Р—Р°РїСѓСЃРє С‚РµСЃС‚РѕРІ
 ```sh
 mvn clean test
 ```
 
-### Построение локального отчета
+### РџРѕСЃС‚СЂРѕРµРЅРёРµ Р»РѕРєР°Р»СЊРЅРѕРіРѕ РѕС‚С‡РµС‚Р°
 ```sh
 mvn allure:serve
 ```
 
-### Входные данные
-Эндпоинты заполнять в application.properties
-или:
+### Р’С…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ
+Р­РЅРґРїРѕРёРЅС‚С‹ Р·Р°РїРѕР»РЅСЏС‚СЊ РІ application.properties
+РёР»Рё:
 ```sh
 mvn clean test -DbaseUrlRickAndMorty=https://rickandmortyapi.com/api/ -DbaseUriReqRes=https://reqres.in/ -DbasePathReqRes=api/users -DendpointCharacter=character/ -DendpointEpisode=episode/
 ```
